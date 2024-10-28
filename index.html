@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portofolio</title>
+
+    <!-- aos animation -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- aos animation -->
+
+    <!-- font awesome -->
+
+    <script src="https://kit.fontawesome.com/daa3d4c019.js" crossorigin="anonymous"></script>
+    <!-- end font awesome -->
+
+    <!-- bootstrap icons -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- end bootstrap icons -->
+
+    <!-- inline css -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- akhir inline css -->
+
+    <!-- link bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- akhir link bootstrap -->
+  </head>
+  <body id="home">
+
+    <!-- awal navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #0C0C0C;">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logoarl.png" alt="Arlen's Portofolio" style="height: 70px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="to-about" class="nav-link" href="about/index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    <!-- akhir navbar -->
+
+
+    <!-- hero section -->
+
+<section id="hero" style="background-color: #0c0c0c;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center">
+                <p data-aos="fade-right" data-aos-duration="1000" id="web-text" class="font-dark" style="line-height: 1;">Web Designer</p>
+                <h1 id="text-nama" data-aos="fade-right" data-aos-duration="1000" class="lh-sm">Hello, my name is Arlen Dean Khalis</h1>
+                <blockquote class="text-white" style="font-style: italic; margin: 20px 0;">“Design is not just what it looks like and feels like. Design is how it works.”</blockquote>
+                <p data-aos="fade-right" data-aos-duration="1000" id="text-perkenalan-saya" class="text-white">I recently graduated with a Bachelor's degree in Information Systems from Universitas Duta Bangsa Surakarta.</p>
+                <div>
+                    <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" id="btn-cv" type="button" class="btn d-inline-block me-2" style="background-color: #FFC637;color: white;">
+                        <a href="https://drive.google.com/uc?id=1-OL2noyxWcMaM9xf525v0_p-UbpTYcPu" download style="color: white; text-decoration: none;">
+                            <i class="fa-solid fa-download me-1"></i>Download CV
+                        </a>
+                    </button>
+                </div>
+                <div style="margin-top: 20px;">
+                    <a href="https://www.facebook.com/arlen.dean.5" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/dean.arlenn/" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/arlen-khalis-146a37284/" class="text-white"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center position-relative">
+                <div style="position: relative;">
+                    <div style="width: 350px; height: 350px; background-color: rgba(255, 198, 55, 0.1); border-radius: 50%; position: absolute; top: -10px; left: -10px; z-index: 0; filter: blur(10px); animation: fadeIn 1s ease-in;"></div>
+                    <img id="image-bg" rel="preload" src="img/image.png" class="img-fluid" alt="" style="border-radius: 10px; width: 100%; height: auto; max-width: 320px; position: relative; z-index: 1; animation: zoomIn 1s ease-in;" data-aos="zoom-in">
+                </div>
+            </div>
+        </div>
+        <hr style="border: 1px solid #FFC637; margin-top: 30px;">
+    </div>
+</section>
+
+<style>
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Optional hover effect for the image */
+#hero img {
+    transition: transform 0.3s ease;
+}
+
+#hero img:hover {
+    transform: scale(1.05);
+}
+</style>
+
+  
+  
+    <!-- akhir hero section -->
+
+    <!-- projects -->
+
+    <section id="projects" class="py-5" style="background-color: #121212;">
+      <div class="container text-light">
+          <div class="row text-center mb-4">
+              <div class="col-lg-12">
+                  <h2 data-aos="fade-down" data-aos-duration="1000">Projects</h2>  
+              </div>
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6 mb-4">
+                  <div data-aos="fade-up" class="card rounded-3 bg-dark text-light shadow" style="height: 100%;">
+                      <img src="img/icon.jpg" class="card-img-top rounded-3" alt="">
+                      <div class="card-body d-flex flex-column" style="flex-grow: 1;">
+                          <h5 class="card-title">Batik Guitar</h5>
+                          <p class="card-text">Website untuk gitar custom, proyek magang di Digimizu Digital Manajemen.</p>
+                          <a href="https://www.batikguitar.com/" class="btn btn-outline-light mt-auto">
+                              <i class="bi bi-box-arrow-up-right me-2"></i>View Projects
+                          </a>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-6 mb-4">
+                  <div data-aos="fade-up" class="card rounded-3 bg-dark text-light shadow" style="height: 100%;">
+                      <img src="img/porto-team.jpg" class="card-img-top rounded-3" alt="">
+                      <div class="card-body d-flex flex-column" style="flex-grow: 1;">
+                          <h5 class="card-title">Ayu Water Spa</h5>
+                          <p class="card-text">Website untuk pemasaran spa di Solo, proyek magang di Digimizu Digital Manajemen.</p>
+                          <a href="https://www.ayuwaterspa.com/" class="btn btn-outline-light mt-auto">
+                              <i class="bi bi-box-arrow-up-right me-2"></i>View Projects
+                          </a>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col-lg-4 col-md-6 mb-4">
+                  <div data-aos="fade-up" class="card rounded-3 bg-dark text-light shadow" style="height: 100%;">
+                      <img src="img/icon1.jpg" class="card-img-top rounded-3" alt="">
+                      <div class="card-body d-flex flex-column" style="flex-grow: 1;">
+                          <h5 class="card-title">Label Lingkar DansPro</h5>
+                          <p class="card-text">Proyek untuk penjualan silicon oil untuk kendaraan.</p>
+                          <div class="mt-auto" style="flex-grow: 1;"></div> <!-- Mengatur tombol tetap di bawah -->
+                          <a href="https://www.tiktok.com/@dandhels?lang=id-ID" class="btn btn-outline-light">
+                              <i class="bi bi-box-arrow-up-right me-2"></i>View Projects
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <!-- akhir projects -->
+
+    <!-- messages -->
+
+    <section id="contacts" class="py-5" style="background-color: #0C0C0C;">
+      <div class="container">
+        <div class="row">
+          <div class="col text-light text-center">
+            <h2 data-aos="fade-down" data-aos-duration="1000">Mesagges</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center text-light py-5">
+          <div class="col-md-6">
+            <form  data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email aria-describedby="email>
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning">Kirim</button>
+              <div id="gambar-footer" class="d-flex justify-content-center my-5">
+                <img id="linked" src="img/bi_linkedin.png" alt="">
+                <img id="instagram" class="mx-3" src="img/ph_instagram-logo-fill.png" alt="">
+                <a href="mailto:kadekadi368@gmail.com"><img src="img/bi_envelope-fill.png" id="foto-email" alt=""></a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- akhir messages -->
+
+    <!-- footer -->
+
+    <footer class="text-white text-center" style="background-color: #0c0c0c;">
+      <p>
+        <img src="img/logoarl.png" alt="Logo" style="height: 200px; vertical-align: middle;">
+      </p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#FFC637" fill-opacity="1" d="M0,160L48,181.3C96,203,192,245,288,234.7C384,224,480,160,576,138.7C672,117,768,139,864,170.7C960,203,1056,245,1152,229.3C1248,213,1344,139,1392,101.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      </svg>
+    </footer>
+    
+
+    <!-- akhir footer -->
+
+
+
+    <!-- js aos -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+    });
+  </script>
+
+    <!-- akhir js aos -->
+
+
+    <!-- js internal -->
+
+    <script src="js/app.js"></script>
+
+    <!-- akhir js internal -->
+
+    <!-- js bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- akkhir js bootstrap -->
+  </body>
+</html>
